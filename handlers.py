@@ -4,7 +4,7 @@ from aiogram.types import ParseMode
 from aiogram.utils import executor
 from aiogram.dispatcher.filters import Text
 from models import async_session, User, Folder, init_db
-from disk.py import YandexDisk
+from disk import YandexDisk
 import os
 from dotenv import load_dotenv
 
