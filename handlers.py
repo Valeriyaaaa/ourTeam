@@ -36,7 +36,7 @@ async def cmd_status(message: types.Message):
 
 @dp.message_handler(commands=['register'])
 async def cmd_register(message: types.Message):
-    await message.reply("Для регистрации в API Яндекс.Диска, перейди по ссылке и следуй инструкциям: <ссылка>")
+    await message.reply("Для регистрации в API Яндекс.Диска, перейди по ссылке и следуй инструкциям: <https://oauth.yandex.ru/verification_code#access_token=y0_AgAAAABU3Y96AAvsbAAAAAEHEZxTAAAWv9KLilJAc4XdpRJ3RGyXewsqXQ&token_type=bearer&expires_in=31535848&cid=9eq636c4w8kux3jrjd0f5khpy4>")
 
 @dp.message_handler(commands=['token'])
 async def cmd_token(message: types.Message):
