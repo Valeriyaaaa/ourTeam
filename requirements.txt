@@ -1,0 +1,5 @@
+aiogram==2.14.3
+yadisk==1.3.0
+python-dotenv==0.15.0
+sqlalchemy==1.4.22
+aiosqlite==0.17.0
